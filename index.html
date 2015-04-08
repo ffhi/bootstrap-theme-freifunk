@@ -1,68 +1,146 @@
-<!doctype html>
-
-<html>
-  
+<!DOCTYPE html>
+<html lang="de">
   <head>
-    <title>Freifunk - A Bootstrap 3 Theme</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="dist/css/bootstrap.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  </head>
+    <title>Freifunk Hildesheim</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Freifunk Hildesheim">
+    <meta name="author" content="Freifunk Hildesheim" >
+
+  <link href="/dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <link href="/dist/css/sticky-footer.css" rel="stylesheet"> 
+
+<!-- local fixes. TODO @theme -->
+<style type="text/css">
+  [class^="col-"] > ul {
+    padding-left: 1em;
+  }
+  footer {
+    margin-top: 3em;
+  }
+  nobr {
+    white-space: normal;
+  }
+</style>
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="http://twitter.github.com/bootstrap/examples/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://twitter.github.com/bootstrap/examples/images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://twitter.github.com/bootstrap/examples/images/apple-touch-icon-114x114.png">
   
-  <body>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-6 col-lg-offset-3">
-          <h1 class="page-header"> Freifunk
-            <small>(0.1.1)</small>
-          </h1>
-          <p class="lead">A theme for <a href="http://www.getbootstrap.com/">Bootstrap 3</a> by <b>Max F. Albrecht</b></p>
-          <div class="list-group">
-            <a class="list-group-item" href="https://github.com/divshot/themestrap">View on GitHub</a>
-            <a class="list-group-item" href="examples/kitchen-sink.html">View "Kitchen Sink" Example</a>
-            <a class="list-group-item" href="examples/weimarnetz.html">View "Weimarnetz" Example</a>
-            <a class="list-group-item" href="examples/weimarnetz-captive.html">View "Weimarnetz Captive" Example</a>
-            <a class="list-group-item" href="examples/weimarnetz-captive-inline.html">View "Weimarnetz Captive (Inline)" Example</a>
-          </div>
-          
-          <div class='panel panel-default text-left'>
-            <div class="panel-heading"><h3>Quick Install</h3></div>
-            <div class="panel-body">
-              <p>Download the <a href="dist/css/bootstrap.css" download>bootstrap.css</a> or <a href="dist/css/bootstrap.min.css" download>bootstrap.min.css</a> files or install using Bower:</p>
-              
-                <pre>bower install bootstrap-theme-freifunk#master</pre>
-              
-            </div>
-          </div>
-          
-          <div class='panel panel-default text-left'>
-            <div class="panel-heading"><h3>README</h3></div>
-            <div class="panel-body">
-              <h1 id="bootstrap-theme-freifunk">bootstrap-theme-freifunk</h1>
-<p><code>work in progress</code></p>
-<h2 id="acknowledgments">Acknowledgments</h2>
-<p>This a list of resources used for this theme apart from <code>bootstrap</code>/<code>themestrap</code>. 
-They are all published under some kind of permissive licence. 
-Depending on your usage of the theme, you should consider adding this info to your site (eg. in the imprint).</p>
-<ul>
-<li>Based on <a href="http://wiki.freifunk.net/Freifunk-Styles"><code>Freifunk-Styles</code></a>, uses <code>Freifunk Colors</code> by <a href="http://wiki.freifunk.net/Benutzer:Monic">Monic</a></li>
-<li>Uses the <code>Freifunk Logo</code> by <a href="http://wiki.freifunk.net/Benutzer:Monic">Monic</a>, licensed under <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5 Licence</a>. <code>SVG</code> version from <a href="https://commons.wikimedia.org/wiki/File:Freifunk.net.svg">Wikimedia Commons</a>. Slightly changed for this theme, licensed under same license as the original.</li>
-<li>Uses a photograph of a &quot;cumulus humilis&quot; cloud by <a href="https://commons.wikimedia.org/wiki/User:Huhu_Uet">Huhu Uet</a> . Source: <a href="https://commons.wikimedia.org/wiki/File:Schäfchenwolke_(Cumulus_humilis)_01.jpg">Wikimedia Commons</a>. Heavily edited for this theme, licensed under same license as the original.</li>
-</ul>
+  </head>
 
-            </div>
-          </div>
-          
-          <footer>
-          <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="divshot" data-size="large">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+  <body id="home" class="fixed-nav">
 
-          <p class="text-muted" style="margin-top: 100px;"><small>A <a href="https://github.com/divshot/themestrap" target="_blank">Themestrap</a> theme. Copyright &copy; 2013 Divshot, Inc. Some rights reserved.</small></p>
-          </footer>
-        </div>
+    
+    <noscript><div class="container">
+    <div class="alert alert-error">
+    <strong>Achtung!</strong> Bitte aktiviere Javascript in Deinem Browser, um diese Website vollständig nutzen zu können.
+    </div>
+    </div></noscript>
+    
+    
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand active" href="/"><strong>Freifunk Hildesheim</strong></a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li class="divider-vertical"></li>
+	  <li><a href="https://freieslabor.org/wiki/Freifunk:Hauptseite">Wiki</a></li>
+	  <li><a href="http://lists.freifunk.net/mailman/listinfo/hildesheim-freifunk.net">Mailingliste</a></li>
+	  <li><a href="https://freieslabor.org/wiki/Freifunk:Firmware">Download</a></li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="https://freieslabor.org/wiki/Freies_Labor:Impressum">Impressum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+    <!-- grosses startseitenbanner -->
+    <div id="banner" class="jumbotron jumbotron-branded cloudy-bg ff-logo-bg">
+      <div class="container">
+        <h1>Freifunk Hildesheim</h1>
+        <p class="lead">Freies, dezentrales WLAN in der Region</p>
+		<!--
+        <p>
+          <a class="btn btn-primary btn-lg" href="#">Jetzt Mitfunken &raquo;</a>
+          <a class="btn btn-warning btn-lg" href="#">Hilfe bekommen &raquo;</a>
+        </p>
+		-->
+        
       </div>
     </div>
-  </body>
 
+    <!-- hier beginnt die eigentliche seite -->
+    <div class="container">
+
+      <!-- eine reihe content blöcke -->
+      <div class="row">
+    
+        <!-- ein halber block -->
+        <div class="col-sm-8">
+          <div>
+            <h2 class="page-header">Mitmachen</h2>
+            <ul>
+              <li>Besorg' Dir einen <a href="https://freieslabor.org/wiki/Freifunk:Firmware">unterstützten Router</a> beim Händler Deiner Wahl oder komm bei uns vorbei</li>
+              <li>Installier' <a href="https://freieslabor.org/wiki/Freifunk:Firmware">unsere Freifunk-Firmware</a> auf dem Router, entweder auf eigene Faust oder lass Dir von uns helfen</li>
+			  <li>Fertig! Jetzt betreibst Du ein offenes WLAN ohne Störerhaftung</li>
+              <li>Trag' die Idee von Freifunk weiter!</li>
+            </ul>
+          </div>
+
+          <div style="margin-top: 50px;">
+            <h2 class="page-header">In Kontakt bleiben</h2>
+            <ul>
+              <li>Trage Dich auf <a href="http://lists.freifunk.net/mailman/listinfo/hildesheim-freifunk.net">unserer Mailingliste</a> ein, stell Fragen und bleib auf dem Laufenden</li>
+              <li>Folge uns auf <a href="https://twitter.com/Freifunk_HI">Twitter</a></li>
+              <li>Komm bei den regelmäßigen Treffen vorbei</li>
+            </ul>      
+          </div>
+        </div>
+    
+        <!-- ein halber block (12/6=1/2) -->
+        <div class="col-sm-4" style="padding: 30px;">
+          <div id="panels2" class="panel panel-primary" style="background-color: #ffe9b3;">
+            <div class="panel-heading">Persönlicher Kontakt</div>
+            <p class="panel-body">Informationen für Hildesheim gibt es bei Dipl.-Ing. Manfred Baack,<br />Tel. 05121 888444 oder <a href="mailto:manfred@baack.de">manfred@baack.de</a>.</p>
+          </div>
+          <div id="panels" class="panel panel-primary" style="background-color: #ffe9b3;">
+            <div class="panel-heading">Regelmäßige Gruppentreffen</div>
+            <p class="panel-body">Wir treffen uns jeden Donnerstag ab 18 Uhr im <a href="https://freieslabor.org/wiki/Laborräume">Freien Labor</a> zum Organisieren, Diskutieren, Router-Flashen uvm.</p>
+          </div>
+        </div>
+
+      </div> <!-- ende reihe -->
+
+      <footer class="footer row container">
+        <hr class="footerline">
+        <div style="text-align: center;">
+          Bootstrap-Theme von <a href="https://github.com/eins78/bootstrap-theme-freifunk">Max F. Albrecht</a>/<a href="http://www.weimarnetz.de">Weimarnetz</a> (<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">CC BY-NC-SA 3.0 DE</a>) &#8226;
+		  Logo von <a href="http://wiki.freifunk.net/Benutzer:Monic">Monic</a>, geändert von Max F. Albrecht (<a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>) &#8226;
+		  Hintergrund von <a href="https://commons.wikimedia.org/wiki/User:Huhu_Uet">Huhu Uet</a> (<a href="http://creativecommons.org/licenses/by/3.0/deed.en">CC BY 3.0</a>)
+        </div>
+      </footer>
+  
+    </div> <!-- ende inhalt /container -->
+
+
+    <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="http://imsky.github.io/holder//holder.js"></script>
+  </body>
 </html>
